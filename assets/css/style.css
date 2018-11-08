@@ -276,14 +276,16 @@ body {
   }
 
  #main-container{
-  min-height: 100%;
-  margin-top: -140px;
+  height: 75%;
+  padding: 0px;
+  
 
  }
   
   #logo{
     width:100%;
   }
+
     #masthead{
         position: static;
     
@@ -293,7 +295,6 @@ body {
       width: 95%;
      
     }
-   
     
     nav{
      width: 100%;
