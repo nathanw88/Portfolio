@@ -12,6 +12,13 @@ body {
 
 /* general */
 
+a{
+  color: #2f3540
+}
+
+.fab, .fas{
+  font-size: 25px;
+}
 .container {
   width: 100%;
   max-width: 960px;
@@ -44,7 +51,7 @@ h1 {
   line-height: 49px;
   border-bottom: 3px solid #d9d1c7;
 }
-
+/*#f2ede4*/
 h2,
 h3 {
   font-size: 22px;
@@ -89,7 +96,7 @@ nav a {
   line-height: 18px;
   color: #2f3540;
   text-decoration: none;
-  border-left: 1px solid #f2ede4;
+  border-left: 1px solid #d9d1c7;
 }
 
 nav a:first-child {
@@ -106,7 +113,7 @@ footer {
   color: #243540;
   text-align: center;
   background: #666a73;
-  border-top: 8px solid #f2ede4;
+  border-top: 8px solid #d9d1c7;
   height: 50px;
 }
 
@@ -115,7 +122,7 @@ h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
-  border-bottom: 2px solid #f2ede4;
+  border-bottom: 2px solid #d9d1c7;
 }
 
 /* main */
@@ -132,7 +139,7 @@ h2 {
   padding: 30px;
   margin: 0 0 40px;
   background: #666a73;
-  border: 1px solid #f2ede4;
+  border: 1px solid #d9d1c7;
 }
 
 /* portfolio page */
@@ -181,43 +188,6 @@ h2 {
 
 /* contact page */
 
-#contact-form ul {
-  margin-bottom: 20px;
-}
-
-#contact-form li {
-  margin-bottom: 10px;
-}
-
-label,
-input[type="text"],
-input[type="email"],
-textarea {
-  display: block;
-  width: 100%;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #f2edef;
-}
-
-textarea {
-  height: 200px;
-}
-
-input[type="submit"] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #2f3540;
-  cursor: pointer;
-  background: #666a73;
-  border: 0 none;
-}
 
 @media screen and (max-width: 980px) {
   .container {
