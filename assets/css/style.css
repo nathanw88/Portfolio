@@ -188,6 +188,10 @@ h2 {
 
 /* contact page */
 
+.contact-section{
+  text-align: center;
+}
+
 
 @media screen and (max-width: 980px) {
   .container {
@@ -236,10 +240,15 @@ h2 {
 }
 
 @media screen and (max-width: 640px) {
+  h1{
+    text-align: center;
+  }
   .container {
     width: 100%;
   }
-
+  .auth-image {
+    width: 100%;
+  }
   #main-container {
     height: 75%;
     padding: 0px;
