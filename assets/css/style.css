@@ -5,7 +5,9 @@ body {
   color: #2f3540;
   background: url("../images/background.jpg");
 }
-
+.projects-title{
+  color: black;
+}
 * {
   box-sizing: border-box;
 }
